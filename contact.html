@@ -123,76 +123,95 @@
 
       <!-- FORM -->
       <div class="contact-form">
-        <h3>Request a Free Quote</h3>
-        <form id="contactForm" novalidate>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="fname">First Name *</label>
-              <input type="text" id="fname" name="fname" placeholder="John" required/>
-            </div>
-            <div class="form-group">
-              <label for="lname">Last Name *</label>
-              <input type="text" id="lname" name="lname" placeholder="Smith" required/>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="email">Email Address *</label>
-              <input type="email" id="email" name="email" placeholder="john@company.com" required/>
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000"/>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="company">Company Name</label>
-            <input type="text" id="company" name="company" placeholder="Your company"/>
-          </div>
-          <div class="form-group">
-            <label for="service">Service Required *</label>
-            <select id="service" name="service" required>
-              <option value="" disabled selected>Select a service</option>
-              <option>Cost Estimating</option>
-              <option>Construction Takeoff</option>
-              <option>Commercial Estimating</option>
-              <option>Residential Estimating</option>
-              <option>Industrial Estimating</option>
-              <option>MEP Estimating</option>
-              <option>Electrical Estimating</option>
-              <option>Concrete Estimating</option>
-              <option>Roofing Estimating</option>
-              <option>CPM Scheduling</option>
-              <option>Xactimate Estimating</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="budget">Project Value (Approx.)</label>
-              <select id="budget" name="budget">
-                <option value="" disabled selected>Select range</option>
-                <option>Under $100K</option>
-                <option>$100K – $500K</option>
-                <option>$500K – $2M</option>
-                <option>$2M – $10M</option>
-                <option>$10M – $50M</option>
-                <option>$50M+</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="deadline">Bid Deadline</label>
-              <input type="date" id="deadline" name="deadline"/>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="message">Project Details</label>
-            <textarea id="message" name="message" placeholder="Describe your project — scope, location, any special requirements. You can also email plans to info@accubuildestimates.com"></textarea>
-          </div>
-          <button type="submit" class="btn-primary" style="width:100%; cursor:pointer; font-size:0.9rem;">Send Request &amp; Get Quote</button>
-          <div class="form-success" id="formSuccess">✓ Your request has been sent! We'll be in touch within 2 hours.</div>
-        </form>
+  <h3>Request a Free Quote</h3>
+
+  <form action="https://formsubmit.co/farhan.riphah21@gmail.com" method="POST">
+
+    <!-- FormSubmit Hidden Settings -->
+    <input type="hidden" name="_subject" value="New Quote Request - AccuBuild Website">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <!-- Optional thank you page (remove if you don’t have one) -->
+    <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html"> -->
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="fname">First Name *</label>
+        <input type="text" id="fname" name="First Name" placeholder="John" required>
       </div>
+      <div class="form-group">
+        <label for="lname">Last Name *</label>
+        <input type="text" id="lname" name="Last Name" placeholder="Smith" required>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="Email" placeholder="john@company.com" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="Phone" placeholder="+1 (555) 000-0000">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="company">Company Name</label>
+      <input type="text" id="company" name="Company" placeholder="Your company">
+    </div>
+
+    <div class="form-group">
+      <label for="service">Service Required *</label>
+      <select id="service" name="Service" required>
+        <option value="" disabled selected>Select a service</option>
+        <option>Cost Estimating</option>
+        <option>Construction Takeoff</option>
+        <option>Commercial Estimating</option>
+        <option>Residential Estimating</option>
+        <option>Industrial Estimating</option>
+        <option>MEP Estimating</option>
+        <option>Electrical Estimating</option>
+        <option>Concrete Estimating</option>
+        <option>Roofing Estimating</option>
+        <option>CPM Scheduling</option>
+        <option>Xactimate Estimating</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="budget">Project Value (Approx.)</label>
+        <select id="budget" name="Budget">
+          <option value="" disabled selected>Select range</option>
+          <option>Under $100K</option>
+          <option>$100K – $500K</option>
+          <option>$500K – $2M</option>
+          <option>$2M – $10M</option>
+          <option>$10M – $50M</option>
+          <option>$50M+</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="deadline">Bid Deadline</label>
+        <input type="date" id="deadline" name="Deadline">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Project Details</label>
+      <textarea id="message" name="Message"
+        placeholder="Describe your project — scope, location, any special requirements. You can also email plans to info@accubuildestimates.com"></textarea>
+    </div>
+
+    <button type="submit" class="btn-primary" style="width:100%; cursor:pointer; font-size:0.9rem;">
+      Send Request &amp; Get Quote
+    </button>
+
+  </form>
+</div>
     </div>
   </div>
 </section>
