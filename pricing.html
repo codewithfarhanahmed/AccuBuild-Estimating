@@ -3,71 +3,90 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Pricing – AccuBuild Estimating</title>
+<link rel="icon" type="image/png" href="assets/favicon.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="style.css"/>
+<title>Pricing – AccuBuild Estimating</title>
 </head>
 <body>
-
 <div class="topbar">
   <span>📞 +1 (800) 555-0199 &nbsp;|&nbsp; info@accubuildestimates.com</span>
   <span>Turnaround: <strong>24–48 Hours</strong></span>
 </div>
 
 <nav id="navbar">
-  <a href="index.html" class="logo">ACCU<span>BUILD</span></a>
+  <a href="index.html" class="logo">
+    <img src="assets/AB.jpeg" alt="AccuBuild Estimating Logo"/>
+  </a>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li class="dropdown">
       <a href="services.html">Services <span class="caret">▾</span></a>
       <ul class="dropdown-menu">
-        <li><a href="services.html#cost">Cost Estimating</a></li>
-        <li><a href="services.html#construction">Construction Estimating</a></li>
+        <li class="has-sub"><a href="services.html#cost">Cost Estimating ›</a>
+          <ul class="sub-menu">
+            <li><a href="services.html#building">Building Cost Estimating</a></li>
+            <li><a href="services.html#bim">BIM Estimating</a></li>
+            <li><a href="services.html#budget">Budget Estimating</a></li>
+          </ul>
+        </li>
+        <li class="has-sub"><a href="services.html#construction">Construction Estimating ›</a>
+          <ul class="sub-menu">
+            <li><a href="services.html#freelance">Freelance Estimating</a></li>
+            <li><a href="services.html#dedicated">Dedicated Estimator</a></li>
+            <li><a href="services.html#blueprint">Blueprint Estimating</a></li>
+            <li><a href="services.html#xactimate">Xactimate Services</a></li>
+          </ul>
+        </li>
         <li><a href="services.html#takeoff">Construction Takeoff</a></li>
-        <li><a href="services.html#commercial">Commercial Estimating</a></li>
         <li><a href="services.html#residential">Residential Estimating</a></li>
-        <li><a href="services.html#scheduling">CPM Scheduling</a></li>
+        <li><a href="services.html#commercial">Commercial Estimating</a></li>
+        <li><a href="services.html#industrial">Industrial Estimating</a></li>
+        <li><a href="services.html#preliminary">Preliminary Estimate</a></li>
+        <li class="has-sub"><a href="services.html#scheduling">CPM Scheduling ›</a>
+          <ul class="sub-menu">
+            <li><a href="services.html#primavera">Primavera Scheduling</a></li>
+            <li><a href="services.html#msproject">MS Project Scheduling</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li class="dropdown">
-  <a href="trades.html" class="active">Our Trades <span class="caret">▾</span></a>
-  <ul class="dropdown-menu">
-    <li><a href="#concrete">Concrete Estimating</a></li>
-    <li><a href="#electrical">Electrical Estimating</a></li>
-    <li><a href="#masonry">Masonry Estimating</a></li>
-
-    <li class="has-sub">
-      <a href="#mep">MEP Estimating ›</a>
-      <ul class="sub-menu">
-        <li><a href="#hvac">HVAC Estimating</a></li>
-        <li><a href="#plumbing">Plumbing Estimating</a></li>
-        <li><a href="#mechanical">Mechanical Estimating</a></li>
+      <a href="trades.html">Our Trades <span class="caret">▾</span></a>
+      <ul class="dropdown-menu">
+        <li><a href="trades.html#concrete">Concrete Estimating</a></li>
+        <li class="has-sub"><a href="trades.html#electrical">Electrical Estimating ›</a>
+          <ul class="sub-menu">
+            <li><a href="trades.html#telecom">Telecom Estimating</a></li>
+            <li><a href="trades.html#electrical">Electrical Outsourcing</a></li>
+          </ul>
+        </li>
+        <li><a href="trades.html#masonry">Masonry Estimating</a></li>
+        <li class="has-sub"><a href="trades.html#mep">MEP Estimating ›</a>
+          <ul class="sub-menu">
+            <li><a href="trades.html#hvac">HVAC Estimating</a></li>
+            <li><a href="trades.html#plumbing">Plumbing Estimating</a></li>
+            <li><a href="trades.html#mechanical">Mechanical Estimating</a></li>
+            <li><a href="trades.html#piping">Piping Estimating</a></li>
+          </ul>
+        </li>
+        <li><a href="trades.html#roofing">Roofing Estimating</a></li>
+        <li><a href="trades.html#sitework">Sitework Estimating</a></li>
+        <li><a href="trades.html#drywall">Drywall Takeoff</a></li>
+        <li><a href="trades.html#lumber">Lumber Takeoff</a></li>
+        <li class="has-sub"><a href="trades.html#others">Others ›</a>
+          <ul class="sub-menu">
+            <li><a href="trades.html#insulation">Insulation Estimating</a></li>
+            <li><a href="trades.html#flooring">Flooring Estimating</a></li>
+            <li><a href="trades.html#painting">Painting Estimating</a></li>
+            <li><a href="trades.html#metals">Metals Estimating</a></li>
+            <li><a href="trades.html#openings">Openings Estimating</a></li>
+            <li><a href="trades.html#fireproofing">Fireproofing Estimating</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
-
-    <li><a href="#roofing">Roofing Estimating</a></li>
-    <li><a href="#sitework">Sitework Estimating</a></li>
-    <li><a href="#lumber">Lumber Takeoff</a></li>
-    <li><a href="#drywall">Drywall Takeoff</a></li>
-
-    <!-- NEW OTHERS CATEGORY -->
-    <li class="has-sub">
-      <a href="#">Others ›</a>
-      <ul class="sub-menu">
-        <li><a href="#general">General Contracting</a></li>
-        <li><a href="#electrical">Electrical</a></li>
-        <li><a href="#mechanical">Mechanical (HVAC)</a></li>
-        <li><a href="#plumbing">Plumbing</a></li>
-        <li><a href="#drywall">Drywall & Finishes</a></li>
-        <li><a href="#masonry">Masonry</a></li>
-        <li><a href="#concrete">Concrete & Site Work</a></li>
-        <li><a href="#roofing">Roofing & Exterior</a></li>
-      </ul>
-    </li>
-
-  </ul>
-</li>
     <li><a href="pricing.html">Pricing</a></li>
     <li class="dropdown">
       <a href="about.html">About <span class="caret">▾</span></a>
@@ -77,18 +96,94 @@
         <li><a href="about.html#reviews">Reviews</a></li>
         <li><a href="about.html#faq">FAQs</a></li>
         <li><a href="about.html#blog">Blog</a></li>
+        <li><a href="about.html#outsource">Outsource Estimating</a></li>
       </ul>
     </li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
   <a href="contact.html" class="btn-nav">Get Estimate</a>
-  <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
 </nav>
 
-<section class="page-hero">
-  <div class="page-hero-bg">
-    <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1600&auto=format&fit=crop&q=80" alt="Pricing"/>
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-header">
+    <a href="index.html" class="mobile-nav-logo">
+      <img src="assets/AB.jpeg" alt="AccuBuild Logo"/>
+    </a>
+    <button class="mobile-nav-close" id="mobileClose" aria-label="Close menu">✕</button>
   </div>
+  <div class="mobile-nav-body">
+    <a href="index.html" class="mob-link">Home</a>
+
+    <div class="mob-group">
+      <div class="mob-link">Services <span class="mob-arrow">›</span></div>
+      <div class="mob-submenu">
+        <span class="mob-sub-label">Cost Estimating</span>
+        <a href="services.html#building">Building Cost Estimating</a>
+        <a href="services.html#bim">BIM Estimating</a>
+        <a href="services.html#budget">Budget Estimating</a>
+        <span class="mob-sub-label">Construction Estimating</span>
+        <a href="services.html#freelance">Freelance Estimating</a>
+        <a href="services.html#dedicated">Dedicated Estimator</a>
+        <a href="services.html#blueprint">Blueprint Estimating</a>
+        <a href="services.html#xactimate">Xactimate Services</a>
+        <span class="mob-sub-label">More Services</span>
+        <a href="services.html#takeoff">Construction Takeoff</a>
+        <a href="services.html#residential">Residential Estimating</a>
+        <a href="services.html#commercial">Commercial Estimating</a>
+        <a href="services.html#industrial">Industrial Estimating</a>
+        <a href="services.html#preliminary">Preliminary Estimate</a>
+        <a href="services.html#primavera">Primavera Scheduling</a>
+        <a href="services.html#msproject">MS Project Scheduling</a>
+      </div>
+    </div>
+
+    <div class="mob-group">
+      <div class="mob-link">Our Trades <span class="mob-arrow">›</span></div>
+      <div class="mob-submenu">
+        <a href="trades.html#concrete">Concrete Estimating</a>
+        <a href="trades.html#electrical">Electrical Estimating</a>
+        <a href="trades.html#masonry">Masonry Estimating</a>
+        <a href="trades.html#hvac">HVAC Estimating</a>
+        <a href="trades.html#plumbing">Plumbing Estimating</a>
+        <a href="trades.html#mechanical">Mechanical Estimating</a>
+        <a href="trades.html#piping">Piping Estimating</a>
+        <a href="trades.html#roofing">Roofing Estimating</a>
+        <a href="trades.html#sitework">Sitework Estimating</a>
+        <a href="trades.html#drywall">Drywall Takeoff</a>
+        <a href="trades.html#lumber">Lumber Takeoff</a>
+        <a href="trades.html#insulation">Insulation Estimating</a>
+        <a href="trades.html#flooring">Flooring Estimating</a>
+        <a href="trades.html#painting">Painting Estimating</a>
+        <a href="trades.html#metals">Metals Estimating</a>
+        <a href="trades.html#telecom">Telecom Estimating</a>
+      </div>
+    </div>
+
+    <a href="pricing.html" class="mob-link">Pricing</a>
+
+    <div class="mob-group">
+      <div class="mob-link">About <span class="mob-arrow">›</span></div>
+      <div class="mob-submenu">
+        <a href="about.html#story">Our Story</a>
+        <a href="about.html#portfolio">Portfolio</a>
+        <a href="about.html#reviews">Reviews</a>
+        <a href="about.html#faq">FAQs</a>
+        <a href="about.html#blog">Blog</a>
+        <a href="about.html#outsource">Outsource Estimating</a>
+      </div>
+    </div>
+
+    <a href="contact.html" class="mob-link">Contact</a>
+    <div class="mob-cta-wrap">
+      <a href="contact.html" class="btn-primary">Get Free Estimate</a>
+    </div>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-bg"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1600&auto=format&fit=crop&q=80" alt="Pricing"/></div>
   <div class="page-hero-overlay"></div>
   <div class="page-hero-content">
     <div class="breadcrumb"><a href="index.html">Home</a><span>›</span>Pricing</div>
@@ -96,22 +191,17 @@
   </div>
 </section>
 
-<!-- PRICING INTRO -->
-<section class="section" style="background:var(--dark2); padding:60px 0;">
-  <div class="container" style="text-align:center; max-width:680px;">
+<section class="section" style="background:var(--dark2);padding:60px 0;">
+  <div class="container" style="text-align:center;max-width:680px;">
     <div class="section-label" style="justify-content:center;">PRICING PLANS</div>
     <h2 class="section-title" style="margin-bottom:16px;">Save 60% vs. In-House Estimating</h2>
-    <p style="color:var(--muted); font-size:0.95rem; line-height:1.8;">
-      All plans include unlimited revisions, AACE-certified estimates, and our 24–48 hour turnaround guarantee. First estimate 30% off — no commitment required.
-    </p>
+    <p style="color:var(--muted);font-size:.95rem;line-height:1.8;">All plans include unlimited revisions, and our 24–48 hour turnaround guarantee. First estimate 30% off — no commitment required.</p>
   </div>
 </section>
 
-<!-- PRICING CARDS -->
 <section class="section" style="background:var(--black);">
   <div class="container">
     <div class="pricing-grid">
-
       <div class="price-card">
         <div class="price-plan">Starter</div>
         <div class="price-amount"><sup>$</sup>100</div>
@@ -119,12 +209,13 @@
         <div class="price-divider"></div>
         <ul class="price-features">
           <li>Single trade estimate</li>
-          <li>5 revision included</li>
-          <li>PDF & Excel</li>
+          <li>5 revisions included</li>
+          <li>PDF &amp; Excel deliverables</li>
+          <li>48-hour turnaround</li>
+          <li>Email support</li>
         </ul>
-        <a href="contact.html" class="btn-ghost" style="display:block; text-align:center;">Get Started</a>
+        <a href="contact.html" class="btn-ghost" style="display:block;text-align:center;">Get Started</a>
       </div>
-
       <div class="price-card featured">
         <div class="price-badge">Most Popular</div>
         <div class="price-plan">Professional</div>
@@ -137,11 +228,11 @@
           <li>Excel + PDF deliverables</li>
           <li>3 revisions included</li>
           <li>Phone &amp; email support</li>
-          
+          <li>Bid leveling sheet</li>
+          <li>RS Means cost data</li>
         </ul>
-        <a href="contact.html" class="btn-primary" style="display:block; text-align:center;">Get Started</a>
+        <a href="contact.html" class="btn-primary" style="display:block;text-align:center;">Get Started</a>
       </div>
-
       <div class="price-card">
         <div class="price-plan">Enterprise</div>
         <div class="price-amount" style="font-size:2.5rem;">Custom</div>
@@ -153,68 +244,95 @@
           <li>Priority 12-hr turnaround</li>
           <li>Dedicated estimator</li>
           <li>Unlimited revisions</li>
+          <li>24/7 phone support</li>
+          <li>CPM scheduling included</li>
         </ul>
-        <a href="contact.html" class="btn-ghost" style="display:block; text-align:center;">Contact Sales</a>
+        <a href="contact.html" class="btn-ghost" style="display:block;text-align:center;">Contact Sales</a>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- WHAT'S INCLUDED -->
 <section class="section" style="background:var(--dark2);">
   <div class="container">
     <div class="section-label">DELIVERABLES</div>
     <h2 class="section-title" style="margin-bottom:48px;">What's Included in Every Estimate</h2>
-    <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:24px;">
-      <div style="background:var(--dark); border:1px solid var(--border); padding:32px; border-radius:var(--radius);">
-        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&auto=format&fit=crop&q=80" alt="Itemized" style="width:100%; height:140px; object-fit:cover; filter:saturate(0.15) brightness(0.55); border-radius:var(--radius); margin-bottom:20px;"/>
-        <h4 style="font-family:var(--font-head); font-weight:700; margin-bottom:10px;">Itemized Cost Breakdown</h4>
-        <p style="font-size:0.82rem; color:var(--muted); line-height:1.65;">Every material, labor, and equipment line item organized by CSI division with unit prices.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="deliverables-grid">
+      <div style="background:var(--dark);border:1px solid var(--border);padding:32px;border-radius:var(--radius);">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&auto=format&fit=crop&q=80" alt="Itemized" style="width:100%;height:140px;object-fit:cover;filter:saturate(.15) brightness(.55);border-radius:var(--radius);margin-bottom:20px;"/>
+        <h4 style="font-family:var(--font-head);font-weight:700;margin-bottom:10px;">Itemized Cost Breakdown</h4>
+        <p style="font-size:.82rem;color:var(--muted);line-height:1.65;">Every material, labor, and equipment line item organized by CSI division with unit prices.</p>
       </div>
-      <div style="background:var(--dark); border:1px solid var(--border); padding:32px; border-radius:var(--radius);">
-        <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=400&auto=format&fit=crop&q=80" alt="Quantities" style="width:100%; height:140px; object-fit:cover; filter:saturate(0.15) brightness(0.55); border-radius:var(--radius); margin-bottom:20px;"/>
-        <h4 style="font-family:var(--font-head); font-weight:700; margin-bottom:10px;">Quantity Takeoff Sheet</h4>
-        <p style="font-size:0.82rem; color:var(--muted); line-height:1.65;">Detailed material quantities with measurements, counts, and calculation references for verification.</p>
+      <div style="background:var(--dark);border:1px solid var(--border);padding:32px;border-radius:var(--radius);">
+        <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=400&auto=format&fit=crop&q=80" alt="Quantities" style="width:100%;height:140px;object-fit:cover;filter:saturate(.15) brightness(.55);border-radius:var(--radius);margin-bottom:20px;"/>
+        <h4 style="font-family:var(--font-head);font-weight:700;margin-bottom:10px;">Quantity Takeoff Sheet</h4>
+        <p style="font-size:.82rem;color:var(--muted);line-height:1.65;">Detailed material quantities with measurements, counts, and calculation references for verification.</p>
       </div>
-      <div style="background:var(--dark); border:1px solid var(--border); padding:32px; border-radius:var(--radius);">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&auto=format&fit=crop&q=80" alt="Summary" style="width:100%; height:140px; object-fit:cover; filter:saturate(0.15) brightness(0.55); border-radius:var(--radius); margin-bottom:20px;"/>
-        <h4 style="font-family:var(--font-head); font-weight:700; margin-bottom:10px;">Executive Summary</h4>
-        <p style="font-size:0.82rem; color:var(--muted); line-height:1.65;">High-level project cost summary with trade totals, contingency, and total project budget.</p>
+      <div style="background:var(--dark);border:1px solid var(--border);padding:32px;border-radius:var(--radius);">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&auto=format&fit=crop&q=80" alt="Summary" style="width:100%;height:140px;object-fit:cover;filter:saturate(.15) brightness(.55);border-radius:var(--radius);margin-bottom:20px;"/>
+        <h4 style="font-family:var(--font-head);font-weight:700;margin-bottom:10px;">Executive Summary</h4>
+        <p style="font-size:.82rem;color:var(--muted);line-height:1.65;">High-level project cost summary with trade totals, contingency, and total project budget.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- GUARANTEE -->
-<section style="background:var(--gold); padding:60px 40px; text-align:center;">
-  <h2 style="font-family:var(--font-display); font-size:clamp(2rem,5vw,3.5rem); color:var(--black); margin-bottom:16px; letter-spacing:0.03em;">Our Accuracy Guarantee</h2>
-  <p style="color:rgba(0,0,0,0.65); font-size:1rem; max-width:560px; margin:0 auto 28px; line-height:1.7;">Confidence backed by commitment—if our numbers don’t deliver, we’ll cover your next estimate. </p>
-  <a href="contact.html" class="btn-primary" style="background:var(--black); border-color:var(--black); color:var(--gold);">Claim Your First Estimate (30% Off)</a>
+<!-- ACCURACY GUARANTEE – updated text as instructed -->
+<section style="background:var(--gold);padding:60px 40px;text-align:center;">
+  <h2 style="font-family:var(--font-display);font-size:clamp(2rem,5vw,3.5rem);color:#fff;margin-bottom:16px;letter-spacing:.03em;">Our Accuracy Guarantee</h2>
+  <p style="color:rgba(255,255,255,.85);font-size:1rem;max-width:560px;margin:0 auto 28px;line-height:1.7;">Confidence backed by commitment—if our numbers don't deliver, we'll cover your next estimate.</p>
+  <a href="contact.html" class="btn-primary" style="background:var(--black);border-color:var(--black);color:var(--gold);">Claim Your First Estimate (30% Off)</a>
 </section>
 
 <footer class="footer">
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="index.html" class="logo footer-logo">ACCU<span>BUILD</span></a>
-      <p>Professional construction cost estimating nationwide.</p>
+      <a href="index.html" class="footer-logo">
+        <img src="assets/AB.jpeg" alt="AccuBuild Estimating Logo"/>
+      </a>
+      <p>Professional construction cost estimating and material takeoff services. Serving contractors, architects, and owners nationwide since 2009.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" alt="Facebook"/></a>
+        <a href="#" aria-label="LinkedIn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LinkedIn"/></a>
+        <a href="#" aria-label="Instagram"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram"/></a>
+      </div>
     </div>
-    <div class="footer-col"><h5>Quick Links</h5><ul>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="trades.html">Our Trades</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
+    <div class="footer-col"><h5>Services</h5><ul>
+      <li><a href="services.html#cost">Cost Estimating</a></li>
+      <li><a href="services.html#takeoff">Construction Takeoff</a></li>
+      <li><a href="services.html#commercial">Commercial Estimating</a></li>
+      <li><a href="services.html#residential">Residential Estimating</a></li>
+      <li><a href="services.html#industrial">Industrial Estimating</a></li>
+      <li><a href="services.html#scheduling">CPM Scheduling</a></li>
     </ul></div>
-    <div class="footer-col"><h5>Contact</h5><ul>
-      <li><a href="tel:+18005550199">+1 (800) 555-0199</a></li>
-      <li><a href="mailto:info@accubuildestimates.com">info@accubuildestimates.com</a></li>
+    <div class="footer-col"><h5>Our Trades</h5><ul>
+      <li><a href="trades.html#concrete">Concrete Estimating</a></li>
+      <li><a href="trades.html#electrical">Electrical Estimating</a></li>
+      <li><a href="trades.html#mep">MEP Estimating</a></li>
+      <li><a href="trades.html#roofing">Roofing Estimating</a></li>
+      <li><a href="trades.html#masonry">Masonry Estimating</a></li>
+      <li><a href="trades.html#sitework">Sitework Estimating</a></li>
+    </ul></div>
+    <div class="footer-col"><h5>Company</h5><ul>
+      <li><a href="about.html#story">About Us</a></li>
+      <li><a href="about.html#portfolio">Portfolio</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="about.html#reviews">Reviews</a></li>
+      <li><a href="about.html#faq">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul></div>
   </div>
   <div class="footer-bottom">
     <span>© 2025 AccuBuild Estimating. All rights reserved.</span>
+    <span>Privacy Policy &nbsp;|&nbsp; Terms of Service</span>
   </div>
 </footer>
-
 <script src="main.js"></script>
+
+<style>
+@media(max-width:768px){
+  .deliverables-grid{ grid-template-columns:1fr !important; gap:14px !important; }
+}
+</style>
 </body>
 </html>
